@@ -29,6 +29,24 @@ validateEnv()
 export const metadata: Metadata = {
   title: "Zenith E-Summit 2025 | MAIT",
   description: "Explore the cosmos with us at Zenith E-Summit 2025, MAIT's premier entrepreneurship summit.",
+  icons: {
+    icon: [
+      {
+        url: "/Zenith logo White.png",
+        href: "/Zenith logo White.png",
+      }
+    ]
+  },
+  openGraph: {
+    images: [
+      {
+        url: "/Zenith logo White.png",
+        width: 800,
+        height: 800,
+        alt: "Zenith E-Summit 2025",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
